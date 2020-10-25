@@ -1,0 +1,63 @@
+.main-body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  //opacity: 0.8;
+  //position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../photos/office.png");
+}
+
+.text-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+}
+
+.free-body{
+  background-color: #f4511e;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 19px;
+  margin: 17px 10px;
+  opacity: 1;
+  transition: 0.2s;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.free-body:hover{
+  opacity: 0.8;
+}
+
+.button-body{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-body{
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}

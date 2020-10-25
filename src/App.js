@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.scss';
 
-function App() {
-  return (
-    <h1>Hello, world!</h1>
+function App(props) {
+  return (<>
+        <h1>Hello, world!</h1>
+        {/*{props.children}*/}
+        {/*{*/}
+        {/*  props.children.map(el =>*/}
+        {/*    el*/}
+        {/*/!*  )*!/*/}
+        {/*}*/}
+      </>
   );
 }
 
