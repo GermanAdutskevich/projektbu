@@ -1,22 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/main.scss';
-import Header from "./components/header/header";
-// import App from './App';
-import Footer from "./components/footer/footer"
-import Body from "./components/body/body";
+import App from './App';
 import * as serviceWorker from './serviceWorker';
+import FirebaseContext from './Firebase/context';
+import Firebase from './Firebase/firebase';
 
 ReactDOM.render(
-  <React.StrictMode>
-      <Header/>
-      <Body/>
-      <Footer/>
-  </React.StrictMode>,
+    <FirebaseContext.Provider value={new Firebase()}>
+        <App/>
+    </FirebaseContext.Provider>,
   document.getElementById('root')
 );
+
+serviceWorker.unregister();
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

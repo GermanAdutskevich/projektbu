@@ -1,0 +1,44 @@
+.container_signin{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input_sign{
+  margin: 15px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.signinform {
+  display: flex;
+  flex-direction: column;
+}
+
+.signbutton{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #093679;
+}
+
+.signh1{
+  font-family: 'Oswald', sans-serif;
+  color: #093679;
+  display: flex;
+  justify-content: center;
+}
+
+.center{
+  width: 70vw;
+  height: 80vh;
+  background-color: #ffc93c;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

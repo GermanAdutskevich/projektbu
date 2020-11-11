@@ -1,5 +1,7 @@
 @import "./fonts";
 @import "./reset";
+@import "~bootstrap";
+@import "~react-datepicker/dist/react-datepicker.css";
 
 body {
   margin: 0;
@@ -14,3 +16,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
 }
+
+

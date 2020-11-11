@@ -1,0 +1,32 @@
+$body-bg: #FCFCFC;
+$body-color: $color-text;
+
+// Grid
+$grid-breakpoints: (xs: 0,
+        sm: 576px,
+        md: 769px,
+        lg: 992px,
+        xl: 1200px);
+
+
+// Theme colors
+$theme-colors: (
+        "dark": #000000,
+        "primary": $color-primary,
+        "info": $color-info,
+        "secondary": #E8EEF6,
+        "light": #f4f6f7,
+);
+
+$text-muted: #8E8E8E;
+
+
+// Font sizes
+$font-size-sm: .725rem;
+$font-weight-bolder: 600;
+
+$small-font-size: .875rem;
+
+
+// Headings
+$headings-font-weight: 600;
